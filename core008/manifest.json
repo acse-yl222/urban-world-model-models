@@ -1,0 +1,23 @@
+{
+ "name": "south_kensington_core008_web.glb",
+ "version": "models-v1",
+ "total_bytes": 254723368,
+ "parts": [
+  {
+   "file": "south_kensington_core008_web.glb.part-aa",
+   "bytes": 94371840,
+   "sha256": "9bceddafb3b46cb3c56769e1404a44701958da24b66d77fd3af165d7d12bb4f9"
+  },
+  {
+   "file": "south_kensington_core008_web.glb.part-ab",
+   "bytes": 94371840,
+   "sha256": "09bf9ec80b58dd062c4c2aca185b579fd13a09f0dfea7c735260921d233c643c"
+  },
+  {
+   "file": "south_kensington_core008_web.glb.part-ac",
+   "bytes": 65979688,
+   "sha256": "aaf4fa7ce6adec063484f7ac7c2993bd26eb6beb542ea3e91cedc99b27bc5a4d"
+  }
+ ],
+ "note": "The packed South Kensington core008 city model (meshopt + KHR_mesh_quantization, glTF Y up, metres), split into parts under GitHub's 100 MB file limit. Concatenate the parts in order to get the .glb; the viewer does this in the browser (viewer/model-source.js). Served by GitHub Pages with CORS enabled."
+}
