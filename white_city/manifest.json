@@ -1,0 +1,23 @@
+{
+ "name": "white_city_9km2.glb",
+ "version": "white-city-v1",
+ "total_bytes": 190588872,
+ "parts": [
+  {
+   "file": "white_city_9km2.glb.part-aa",
+   "bytes": 67108864,
+   "sha256": "907330fa562f96bf65f82e37b43cc3fef23b8fbb257510a5c53b7ddbf02745a6"
+  },
+  {
+   "file": "white_city_9km2.glb.part-ab",
+   "bytes": 67108864,
+   "sha256": "029ee8d149aabd8d1f60e05e8aebf9e7e80a105fc0bce83f965892b3e61f9a36"
+  },
+  {
+   "file": "white_city_9km2.glb.part-ac",
+   "bytes": 56371144,
+   "sha256": "0c4e1a3fd6bb18f497cd5b0e23ec9bcf78f62fa2d0cf9fad7813e4ac8fcd0d58"
+  }
+ ],
+ "note": "White City 9 km2 city model, meshopt-compressed with gltf-transform from the Draco GLB; reassemble with cat white_city_9km2.glb.part-* > white_city_9km2.glb"
+}
