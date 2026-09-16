@@ -1,23 +1,23 @@
 {
  "name": "white_city_9km2.glb",
- "version": "white-city-v1",
- "total_bytes": 190588872,
+ "version": "white-city-v2",
+ "total_bytes": 186290580,
  "parts": [
   {
    "file": "white_city_9km2.glb.part-aa",
    "bytes": 67108864,
-   "sha256": "907330fa562f96bf65f82e37b43cc3fef23b8fbb257510a5c53b7ddbf02745a6"
+   "sha256": "a3e743545520cf51676f56eee34615e9a300e60cb691c37277dcbd7ace5ba7f5"
   },
   {
    "file": "white_city_9km2.glb.part-ab",
    "bytes": 67108864,
-   "sha256": "029ee8d149aabd8d1f60e05e8aebf9e7e80a105fc0bce83f965892b3e61f9a36"
+   "sha256": "b53721a4733cf3d435931cd1c5a89ca2ce70d63a347245f753dbfe98df218b09"
   },
   {
    "file": "white_city_9km2.glb.part-ac",
-   "bytes": 56371144,
-   "sha256": "0c4e1a3fd6bb18f497cd5b0e23ec9bcf78f62fa2d0cf9fad7813e4ac8fcd0d58"
+   "bytes": 52072852,
+   "sha256": "5431178653fd5035ce9cff18b0f90349a5f04ac87a29c7c1cc1242ea1cb5e191"
   }
  ],
- "note": "White City 9 km2 city model, meshopt-compressed with gltf-transform from the Draco GLB; reassemble with cat white_city_9km2.glb.part-* > white_city_9km2.glb"
+ "note": "White City 9 km2 city model, meshopt-compressed with gltf-transform from the Draco GLB (original materials kept, no palette); reassemble with cat white_city_9km2.glb.part-* > white_city_9km2.glb"
 }
