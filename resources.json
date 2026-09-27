@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Physics-Grounded 4D World Model Resources",
+  "framework": "https://github.com/acse-yl222/physics-grounded-4d-world-model-framework",
+  "base_url": "https://acse-yl222.github.io/urban-world-model-models/",
+  "resources": [
+    {
+      "id": "south_ken_geometry_models_v1",
+      "scene_id": "south_ken",
+      "title": "South Kensington geometry",
+      "category": "geometry",
+      "version": "models_v1",
+      "format": "glb_parts",
+      "manifest": "project/south_ken/geometry/models_v1/manifest.json",
+      "compatibility_manifest": "core008/manifest.json",
+      "total_bytes": 254723368,
+      "coordinate_frame": "glTF-y-up",
+      "units": "m",
+      "assets": [
+        {
+          "path": "project/south_ken/geometry/models_v1/manifest.json",
+          "bytes": 928,
+          "sha256": "19ea640f5c60ec9565b4519510b8cea42db0e5f9503facc97060f02ae844fcc9"
+        },
+        {
+          "path": "project/south_ken/geometry/models_v1/south_kensington_core008_web.glb.part-aa",
+          "bytes": 94371840,
+          "sha256": "9bceddafb3b46cb3c56769e1404a44701958da24b66d77fd3af165d7d12bb4f9"
+        },
+        {
+          "path": "project/south_ken/geometry/models_v1/south_kensington_core008_web.glb.part-ab",
+          "bytes": 94371840,
+          "sha256": "09bf9ec80b58dd062c4c2aca185b579fd13a09f0dfea7c735260921d233c643c"
+        },
+        {
+          "path": "project/south_ken/geometry/models_v1/south_kensington_core008_web.glb.part-ac",
+          "bytes": 65979688,
+          "sha256": "aaf4fa7ce6adec063484f7ac7c2993bd26eb6beb542ea3e91cedc99b27bc5a4d"
+        }
+      ],
+      "provenance": {
+        "repository": "acse-yl222/urban-world-model-models",
+        "revision": "daf4d78c469a6cd22d7b9b7d208813163399013d",
+        "original_path": "core008"
+      },
+      "license": "No blanket licence asserted; preserve original source attribution and review before reuse."
+    },
+    {
+      "id": "white_city_geometry_white_city_v2",
+      "scene_id": "white_city",
+      "title": "White City geometry",
+      "category": "geometry",
+      "version": "white_city_v2",
+      "format": "glb_parts",
+      "manifest": "project/white_city/geometry/white_city_v2/manifest.json",
+      "compatibility_manifest": "white_city/manifest.json",
+      "total_bytes": 186290580,
+      "coordinate_frame": "glTF-y-up",
+      "units": "m",
+      "assets": [
+        {
+          "path": "project/white_city/geometry/white_city_v2/manifest.json",
+          "bytes": 771,
+          "sha256": "9eb4e1a091d03335405c6bd843a6718dd0a94508bf82c7542e84c0ff46faa23a"
+        },
+        {
+          "path": "project/white_city/geometry/white_city_v2/white_city_9km2.glb.part-aa",
+          "bytes": 67108864,
+          "sha256": "a3e743545520cf51676f56eee34615e9a300e60cb691c37277dcbd7ace5ba7f5"
+        },
+        {
+          "path": "project/white_city/geometry/white_city_v2/white_city_9km2.glb.part-ab",
+          "bytes": 67108864,
+          "sha256": "b53721a4733cf3d435931cd1c5a89ca2ce70d63a347245f753dbfe98df218b09"
+        },
+        {
+          "path": "project/white_city/geometry/white_city_v2/white_city_9km2.glb.part-ac",
+          "bytes": 52072852,
+          "sha256": "5431178653fd5035ce9cff18b0f90349a5f04ac87a29c7c1cc1242ea1cb5e191"
+        }
+      ],
+      "provenance": {
+        "repository": "acse-yl222/urban-world-model-models",
+        "revision": "daf4d78c469a6cd22d7b9b7d208813163399013d",
+        "original_path": "white_city"
+      },
+      "license": "No blanket licence asserted; preserve original source attribution and review before reuse."
+    },
+    {
+      "id": "windfarm_geometry_published_v1",
+      "scene_id": "windfarm",
+      "title": "Wind farm geometry",
+      "category": "geometry",
+      "version": "published_v1",
+      "format": "glb",
+      "entry": "project/windfarm/geometry/published_v1/region.glb",
+      "assets": [
+        {
+          "path": "project/windfarm/geometry/published_v1/region.glb",
+          "bytes": 22333072,
+          "sha256": "b457fe574a94ca85b4b6a4c5431981982af6af6a125e214cd5ba12da713b7812"
+        }
+      ],
+      "provenance": {
+        "repository": "acse-yl222/physics-grounded-4d-world-model-framework",
+        "revision": "820821256b3c23dfd9f84c70160d9367c0029bf4",
+        "original_path": "scenes/region/models/region.glb"
+      },
+      "license": "Existing published artifact; no new blanket licence granted."
+    },
+    {
+      "id": "windfarm_runs_published_movie_v1",
+      "scene_id": "windfarm",
+      "title": "Wind farm runs",
+      "category": "runs",
+      "version": "published_movie_v1",
+      "format": "legacy_windfarm_movie",
+      "entry": "project/windfarm/runs/published_movie_v1/metadata.json",
+      "assets": [
+        {
+          "path": "project/windfarm/runs/published_movie_v1/README.md",
+          "bytes": 1269,
+          "sha256": "6682ea1e84252da0c12820f565f32e7f4df6752b0decdddf40730f03d3b5498c"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/comparison/gaussian.bin",
+          "bytes": 262144,
+          "sha256": "25b8734150c91123e7dfa960f9f79f989d70b7cfed84c1d76cb08662c996f44e"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/comparison/jensen04.bin",
+          "bytes": 262144,
+          "sha256": "c92c75642f74d44b4e6d4b08dd1364a0610e3521790a1a16ddad488f70ef2d2d"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/comparison/jensen10.bin",
+          "bytes": 262144,
+          "sha256": "212ff8b67474a6d09e2401551c7b0c2e2e631e3ab89986077173631c29f8dc44"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/comparison/mac_mean.bin",
+          "bytes": 262144,
+          "sha256": "20971e5f676acf0b971eea7dbdf483a46babc510612ebc35f4b10157458070ec"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/ground.bin",
+          "bytes": 524288,
+          "sha256": "7c17774dad3aef15c7f8cffddc76f733c3a75068ef5ee0b36ca9def344474645"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/metadata.json",
+          "bytes": 6521,
+          "sha256": "dda5186c02e7af8576c8d9dd932fe7c32e6ac9a139fbe67df1a4ca7c4e33a338"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/rotor-speeds.json",
+          "bytes": 66186,
+          "sha256": "5a786d00dff552de4a57fae6ff9cee8f09df032c2dcefaf1bbeae8b891ae4627"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/u-0.bin",
+          "bytes": 10485760,
+          "sha256": "21a119734a31fdcf8df1545defc5e7954b521ce8e534c1bb95765b21189cd2a2"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/u-1.bin",
+          "bytes": 10485760,
+          "sha256": "1299121ae61f6ab4be3353660734552a805bfdda765e68f75e079b429caeb27c"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/u-2.bin",
+          "bytes": 10485760,
+          "sha256": "77c9c1fb1a6c83f9c1e4d357ee12a65679410a068d31c83abbef004e042ea47d"
+        },
+        {
+          "path": "project/windfarm/runs/published_movie_v1/u-3.bin",
+          "bytes": 8126464,
+          "sha256": "ee9287dcc0dc57a6be219a4c9d0043936e9b4c80d496de6cde5615c278c6e0cf"
+        }
+      ],
+      "provenance": {
+        "repository": "acse-yl222/physics-grounded-4d-world-model-framework",
+        "revision": "820821256b3c23dfd9f84c70160d9367c0029bf4",
+        "original_path": "scenes/windfarm_movie"
+      },
+      "license": "Existing published artifact; no new blanket licence granted."
+    }
+  ],
+  "notes": [
+    "Resource catalogue, not a simulation run manifest.",
+    "City fields/replays and auxiliary legacy assets remain hosted by the framework Pages branch.",
+    "Compatibility model manifests resolve canonical part paths. Direct historical part URLs are superseded."
+  ]
+}

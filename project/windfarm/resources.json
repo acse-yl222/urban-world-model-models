@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "scene_id": "windfarm",
+  "resource_ids": [
+    "windfarm_geometry_published_v1",
+    "windfarm_runs_published_movie_v1"
+  ]
+}
