@@ -184,6 +184,96 @@
         "original_path": "scenes/windfarm_movie"
       },
       "license": "Existing published artifact; no new blanket licence granted."
+    },
+    {
+      "id": "windfarm_runs_openfoam_10ms_v1",
+      "scene_id": "windfarm",
+      "title": "Wind farm 10 m/s OpenFOAM URANS",
+      "category": "runs",
+      "version": "openfoam_10ms_v1",
+      "format": "legacy_windfarm_movie",
+      "entry": "project/windfarm/runs/openfoam_10ms_v1/metadata.json",
+      "assets": [
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/README.md",
+          "bytes": 951,
+          "sha256": "7e21d65a173004882d41533c27ffb8aed2485d9c6ca8f6c1a1a3275149607b68"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/export_provenance.json",
+          "bytes": 21230,
+          "sha256": "f35558f1e6f1575fe5fb4d7093aaef1b454200f9864f101c0fad772353c6a151"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/ground.bin",
+          "bytes": 524288,
+          "sha256": "14effc46e780d1f26b9a2c7bb4ccf7fcac76a17e8198af45d3652fe39900d9e8"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/metadata.json",
+          "bytes": 11281,
+          "sha256": "2b453ca9ec44a34b1d13fb4e67131c843c315327b6c86a852072cef72997a675"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/numerical_audit.json",
+          "bytes": 398,
+          "sha256": "0218a43613478326c90efb83eb109852e5ecaa7a26d0c354f6238c58dd9eb46c"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/rotor-speeds.json",
+          "bytes": 66360,
+          "sha256": "ebadb88167fef2a28dac51c9b692635b196b38f442cfdaae8f6a14ebf364b14f"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/sample_valid.npy",
+          "bytes": 19660928,
+          "sha256": "a70bbc6d10422d2b7bee24088abe59b12a4e39b1e9584c75344b5895620a0fa6"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/terrain_valid.npy",
+          "bytes": 131200,
+          "sha256": "e1d0b05132d20e0c00cee5b5278d1b117129ddd55f8f391101af17ffcbd49b48"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/u-0.bin",
+          "bytes": 6553600,
+          "sha256": "70bc277d40858df8ed4050711b67f2c94d49019ad6eee529f42251380baad0d8"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/u-1.bin",
+          "bytes": 6553600,
+          "sha256": "6f59998ea025f4742037aed07a78d14c1182acfa44ce05b92ee2962aa0c22dcb"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/u-2.bin",
+          "bytes": 6553600,
+          "sha256": "27fea2177009f46e05558a4d69304a42dbf14da3f8d997c529f81cde56523a1b"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/u-3.bin",
+          "bytes": 6553600,
+          "sha256": "2d7a32ffd1a5e7275b1e0dd85a402980ecbcc579923ce75a4676485c32634387"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/u-4.bin",
+          "bytes": 6553600,
+          "sha256": "dc5201d349ae80df6a8614d7f02f834b5377392ced04fad6e2585dfa082bf231"
+        },
+        {
+          "path": "project/windfarm/runs/openfoam_10ms_v1/u-5.bin",
+          "bytes": 6553600,
+          "sha256": "7be76ea5f4a21b11d67709d3866f8407dcb9d1d2d111bc6360060ff0bf831fff"
+        }
+      ],
+      "provenance": {
+        "repository": "acse-yl222/physics-grounded-4d-world-model-framework",
+        "revision": "fa963dc63f655612e8dc4a85187ba264d57b3248",
+        "original_path": "project/windfarm/runs/20260929T075513Z_ebd84574/movie",
+        "dirty": true,
+        "source_snapshot_sha256": "a9103c249f72a0fc3455dcd79dc4943836718b3a27002ecbfe2fca4d74527081",
+        "experimental_accuracy_validated": false
+      },
+      "license": "Scenario simulation export; no new blanket licence granted for source geometry."
     }
   ],
   "notes": [

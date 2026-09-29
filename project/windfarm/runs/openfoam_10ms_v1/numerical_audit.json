@@ -1,0 +1,10 @@
+{
+  "max_integrated_force_error_N": 4.77739376947e-09,
+  "time_semantics": "physical seconds; final PIMPLE source evaluation at each time",
+  "rotor_count": 23,
+  "max_courant_number": 0.511745704763,
+  "final_local_continuity_error": 2.11594479069e-12,
+  "final_cumulative_continuity_error": 6.54849475466e-08,
+  "numerical_smoke_checks_passed": true,
+  "experimental_accuracy_validated": false
+}

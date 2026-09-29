@@ -3,6 +3,7 @@
   "scene_id": "windfarm",
   "resource_ids": [
     "windfarm_geometry_published_v1",
-    "windfarm_runs_published_movie_v1"
+    "windfarm_runs_published_movie_v1",
+    "windfarm_runs_openfoam_10ms_v1"
   ]
 }
