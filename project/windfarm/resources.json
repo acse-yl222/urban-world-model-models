@@ -4,6 +4,7 @@
   "resource_ids": [
     "windfarm_geometry_published_v1",
     "windfarm_runs_published_movie_v1",
-    "windfarm_runs_openfoam_10ms_v1"
+    "windfarm_runs_openfoam_10ms_v1",
+    "windfarm_runs_torch_rotor_rans_v01"
   ]
 }
