@@ -1,0 +1,68 @@
+{
+  "run_id": "20260930T010905Z_a5f96a98",
+  "window_start_s": 500.0,
+  "window_end_s": 600.0,
+  "complete_window": true,
+  "full_domain_change_data_present": true,
+  "thresholds": {
+    "window_s": 100.0,
+    "velocity_cumulative_rms_bound_m_s": 0.05,
+    "turbulence_cumulative_relative_indicator": 0.02,
+    "rotor_thrust_relative_range": 0.01
+  },
+  "full_domain_change": {
+    "u": {
+      "cumulative_rms_change_bound": 0.00226445875963176,
+      "cumulative_relative_change_indicator": 0.00017120663031915297
+    },
+    "v": {
+      "cumulative_rms_change_bound": 0.0004552935733377085,
+      "cumulative_relative_change_indicator": 0.0010704770517706637
+    },
+    "w": {
+      "cumulative_rms_change_bound": 0.0004521107221087479,
+      "cumulative_relative_change_indicator": 0.0009973456966695855
+    },
+    "k": {
+      "cumulative_rms_change_bound": 0.002351043940955328,
+      "cumulative_relative_change_indicator": 0.0030187177949561866
+    },
+    "epsilon": {
+      "cumulative_rms_change_bound": 9.978002417755226e-05,
+      "cumulative_relative_change_indicator": 0.003328473820256305
+    }
+  },
+  "maximum_rotor_thrust_relative_range": 0.0007763303432590064,
+  "per_rotor_thrust_relative_range": [
+    0.00014012339055795672,
+    0.0003837139778548225,
+    0.0002628002266237391,
+    0.00028302591209878854,
+    0.00028309384865797044,
+    0.0002610301431992552,
+    1.0699140820220168e-05,
+    0.0002915956535792891,
+    0.0001555449392608359,
+    0.00025114050936262755,
+    0.00023419964494541862,
+    0.00044512224704801686,
+    0.0004657714564725257,
+    0.00029554563591878636,
+    0.00045946445858828223,
+    0.00010202089148915432,
+    0.00015178735616397393,
+    0.0006491353177153488,
+    0.0002457035907083848,
+    4.033194096028117e-05,
+    0.0007763303432590064,
+    0.00010591724072129912,
+    0.0006124002021324995
+  ],
+  "finite_window_stationarity_screen_passed": true,
+  "experimental_accuracy_validated": false,
+  "grid_independence_verified": false,
+  "interpretation": "Sum of consecutive full-domain RMS changes bounds endpoint RMS change; relative k/epsilon sums are indicators with changing denominators. These explicit engineering thresholds are not paper convergence criteria. Passing is finite-window stationarity only, not asymptotic steady state or accuracy.",
+  "final_ideal_T_times_Ud_proxy_W": 74793103.49771152,
+  "power_interpretation": "Ideal thrust times disc-speed proxy only; no generator, controller or electrical-power model.",
+  "slice_endpoint_rms_change_m_s": 0.005589060593474337
+}

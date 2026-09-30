@@ -367,6 +367,134 @@
         "experimental_accuracy_validated": false
       },
       "license": "Scenario simulation export; no new blanket licence granted for source geometry."
+    },
+    {
+      "id": "windfarm_runs_torch_rotor_rans_v02",
+      "scene_id": "windfarm",
+      "title": "TorchRotor-RANS v0.2 \u00b7 Ct=0.95 \u00b7 600 s parameter-transfer trial",
+      "category": "runs",
+      "version": "torch_rotor_rans_v02",
+      "format": "binary_movie",
+      "entry": "project/windfarm/runs/torch_rotor_rans_v02/metadata.json",
+      "total_bytes": 33244586,
+      "coordinate_frame": "ENU",
+      "units": "m",
+      "assets": [
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/README.md",
+          "bytes": 606,
+          "sha256": "46db585cc483130a1c596befc00661e522882c947aab08d9c164ab6f47597657"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/configuration.json",
+          "bytes": 1989,
+          "sha256": "c3a6684febf017ce64165c140b5e489a80db63a8e67712724555130354ee0e82"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/execution_environment.json",
+          "bytes": 565,
+          "sha256": "bea0ea81bf37be5536604ed098fea1d95052f31a3bfaf323f2692bb6ed0ebe35"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/export_provenance.json",
+          "bytes": 2493,
+          "sha256": "a093fd602da43f72dfee6de47fc485ae3621c941a71d08aea10c912ecba753ae"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/ground.bin",
+          "bytes": 524288,
+          "sha256": "14effc46e780d1f26b9a2c7bb4ccf7fcac76a17e8198af45d3652fe39900d9e8"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/invalid_mask.npy",
+          "bytes": 131200,
+          "sha256": "4d95adbc9fc59d6d294189ca194e942c11b0f94ca0a72cd623d04b06e3f41b45"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/metadata.json",
+          "bytes": 10293,
+          "sha256": "d17f9319b268152a4a279e6fdc67320fa3a38b69d402f392f8702435bbf0477d"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/model_card.md",
+          "bytes": 11661,
+          "sha256": "176459131533603088ab6d01581bfd192f4a280d41fd9ebd2a791afb56eef1a9"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/numerical_audit.json",
+          "bytes": 11597,
+          "sha256": "4e01f4073098f66b138c7b8d916210c342ab4ccc929d665bf2d401b5dabc5319"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/parameter_audit.json",
+          "bytes": 4487,
+          "sha256": "28d35c030e5c29a1f9bcd5cdcf7646a49cda279e82780243bd8e6ad1a8ea3ccc"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/rotor-speeds.json",
+          "bytes": 64865,
+          "sha256": "723b0aa73711ce8547ddd6a471b7b9902e1b4cb2463d768d43a690b824278e43"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/rotor_parameters.json",
+          "bytes": 4330,
+          "sha256": "bd2171a995a6e9213ea941f43ac1a250a4d7e90f8c7cc57135e43a13603fad45"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/startup_preview.png",
+          "bytes": 497731,
+          "sha256": "d38c3fefd8751480222fb956190c6065176c5670926bcc657fe22468ed5c6131"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/stationarity_audit.json",
+          "bytes": 2546,
+          "sha256": "3ce9eb4c17ab7c5b95ea63c5db2c1f525297365ce2260284d1769856567747dd"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/temporal_diagnostics.png",
+          "bytes": 125311,
+          "sha256": "ba85426697eb31a56eaa19570b393e1d81b62b96d7a66c57fed969743a992143"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/terrain_valid.npy",
+          "bytes": 131200,
+          "sha256": "e1d0b05132d20e0c00cee5b5278d1b117129ddd55f8f391101af17ffcbd49b48"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/u-0.bin",
+          "bytes": 6553600,
+          "sha256": "23323cc7632fff61afdb76a72de3eb99595667445edccf824cc97dd96c88f0b8"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/u-1.bin",
+          "bytes": 6553600,
+          "sha256": "452a65d0a8f28d1c14137bfdcff1cce67d7d0a19951553ca040a41b0d8546e5d"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/u-2.bin",
+          "bytes": 6553600,
+          "sha256": "a9ac34ebde412e56a1a33dd084b3ec60f6f671c70f55c55e3b13a87cecb6bebd"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/u-3.bin",
+          "bytes": 6553600,
+          "sha256": "060d9789c234930c30b09ab9647e155356daf0aecf77fbf10e2f23549efde219"
+        },
+        {
+          "path": "project/windfarm/runs/torch_rotor_rans_v02/u-4.bin",
+          "bytes": 5505024,
+          "sha256": "5931f1b320f33e2367a8cfdefb2f18603e3f890f5faf2c0e30ead358d6c47685"
+        }
+      ],
+      "provenance": {
+        "repository": "acse-yl222/physics-grounded-4d-world-model-framework",
+        "revision": "a3e8ac1b01f62138daeab44971ad2c8182b6cc04",
+        "original_path": "project/windfarm/runs/20260930T010905Z_a5f96a98/movie",
+        "dirty": true,
+        "source_snapshot_sha256": "53d66e4d62d729786e94f3eeb08f54579cc7fb99b648e788175dacbdb21489a2",
+        "experimental_accuracy_validated": false
+      },
+      "license": "Scenario simulation export; no new blanket licence granted for source geometry."
     }
   ],
   "notes": [

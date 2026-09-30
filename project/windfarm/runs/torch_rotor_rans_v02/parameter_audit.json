@@ -1,0 +1,157 @@
+{
+  "source": "User-supplied paper Appendix B.2 and existing formal-paper audit",
+  "doi": "10.1016/j.joes.2026.07.020",
+  "source_pdf_sha256": "34aa6393366db50b06e68a95b534b050c66bdb8ce161be8ff342b2fdd7552f05",
+  "all_parameters_except_grid_match": false,
+  "classification": "Paper-parameter transfer to a different full-scale scenario; not a paper-case reproduction",
+  "parameters": [
+    {
+      "parameter": "Ct",
+      "paper": 0.95,
+      "scene": 0.95,
+      "status": "explicit paper value"
+    },
+    {
+      "parameter": "U_in_m_s",
+      "paper": 10,
+      "scene": 10,
+      "status": "explicit paper value"
+    },
+    {
+      "parameter": "D_m",
+      "paper": 0.4647,
+      "scene": "82.0933\u201382.1627 (23 geometry-derived turbines)",
+      "status": "different scene geometry"
+    },
+    {
+      "parameter": "inner_diameter_over_D",
+      "paper": 0.19367333763718528,
+      "scene": 0.19367333763718528,
+      "status": "ratio from explicitly reported diameters"
+    },
+    {
+      "parameter": "thickness_over_D",
+      "paper": 0.17215407789972026,
+      "scene": 0.17215407789972026,
+      "status": "ratio from explicitly reported dimensions"
+    },
+    {
+      "parameter": "Gaussian_cutoff_N",
+      "paper": 2,
+      "scene": 2,
+      "status": "paper general default; B.2 override not specified"
+    },
+    {
+      "parameter": "sigma_over_D",
+      "paper": 0.043038519474930065,
+      "scene": 0.043038519474930065,
+      "status": "inferred using thickness=2*N*sigma; not explicit B.2 input"
+    },
+    {
+      "parameter": "inlet_turbulence_intensity",
+      "paper": null,
+      "scene": 0.003,
+      "status": "cited-experiment value, not explicitly specified in B.2"
+    },
+    {
+      "parameter": "inlet_turbulence_length_m",
+      "paper": null,
+      "reference_assumption": 0.03,
+      "scene": 5.302964371250929,
+      "status": "unreported; reference assumption scaled using median D"
+    },
+    {
+      "parameter": "air_density_kg_m3",
+      "paper": null,
+      "scene": 1.225,
+      "status": "retained air-property assumption"
+    },
+    {
+      "parameter": "molecular_viscosity_m2_s",
+      "paper": null,
+      "scene": 1.5e-05,
+      "status": "retained assumption; Reynolds number not matched"
+    },
+    {
+      "parameter": "domain_xyz_m",
+      "paper": [
+        12,
+        7,
+        2
+      ],
+      "scene": [
+        4096,
+        2048,
+        512
+      ],
+      "status": "different geometry/blockage and domain ratios"
+    },
+    {
+      "parameter": "turbine_count",
+      "paper": 1,
+      "scene": 23,
+      "status": "different layout and wake interactions"
+    },
+    {
+      "parameter": "tower_nacelle",
+      "paper": false,
+      "scene": true,
+      "status": "retained scene solids"
+    },
+    {
+      "parameter": "terrain",
+      "paper": "flat floor",
+      "scene": "voxel terrain",
+      "status": "different geometry and wall treatment"
+    },
+    {
+      "parameter": "turbulence_model",
+      "paper": [
+        "kEpsilon",
+        "kOmegaSST"
+      ],
+      "scene": "kEpsilon",
+      "status": "one reported branch; not both models"
+    },
+    {
+      "parameter": "flow_equations",
+      "paper": "steady SIMPLE",
+      "scene": "transient pressure projection",
+      "status": "different time/pressure algorithm and first-order transport"
+    },
+    {
+      "parameter": "grid",
+      "paper": "uniform rectangular MC2/MM2/MF2",
+      "scene": "8 m cubic",
+      "status": "different resolution; no grid independence"
+    },
+    {
+      "parameter": "boundary_classes",
+      "paper": "fixed inlet, flow-out, slip top/sides, noSlip floor",
+      "scene": "same classes plus voxel wall functions; simplified outlet backflow handling",
+      "status": "partial match; not identical implementation"
+    },
+    {
+      "parameter": "simulation_duration_s",
+      "paper": "steady-state iterations",
+      "scene": 600,
+      "status": "transient duration chosen for this trial"
+    },
+    {
+      "parameter": "startup_force_ramp_s",
+      "paper": null,
+      "scene": 5,
+      "status": "numerical startup choice"
+    }
+  ],
+  "reynolds_number_derivation": {
+    "definition": "Re=U*D/nu",
+    "nu_m2_s_assumed": 1.5e-05,
+    "reference_using_assumed_nu": 309800.0,
+    "full_scale_range_using_assumed_nu": [
+      54728866.666666664,
+      54775133.33333333
+    ],
+    "interpretation": "Derived using retained viscosity assumption; not a Reynolds number explicitly reported in Appendix B.2."
+  }
+}

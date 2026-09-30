@@ -1,0 +1,10 @@
+{
+  "python": "3.10.20",
+  "pytorch": "2.7.1+cu128",
+  "pytorch_cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "compute_dtype": "float32",
+  "tf32_allowed": false,
+  "timing_scope": "Solver initialization, integration, sampling, checkpoint writes and movie export; excludes prior geometry preparation, source snapshot, analysis, protocol retention and website publication.",
+  "timing_caveat": "Other GPU compute processes were observed during the run around t=365 s. This is a shared-GPU elapsed-time record, not an isolated solver performance benchmark."
+}
