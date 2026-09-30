@@ -1,0 +1,57 @@
+{
+  "repository": "OpenFAST/r-test",
+  "revision": "dd5feaaaa500ba7283140107806300d551cff0a7",
+  "files": [
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "file": "blade.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/NRELOffshrBsline5MW_AeroDyn_blade.dat",
+      "sha256": "10b9ee4fa6cca5082b9a7be43945386524fabbd01616edef000b1efb65271161"
+    },
+    {
+      "file": "Cylinder1.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/Cylinder1.dat",
+      "sha256": "8cd740babf3de2449b28504335625382be076d40e3feedb3c04753820751873a"
+    },
+    {
+      "file": "Cylinder2.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/Cylinder2.dat",
+      "sha256": "feeb9fb175dc918fccf580d9acf7a2238d86485e90af2d25f9bda3fdf4c450fc"
+    },
+    {
+      "file": "DU40_A17.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/DU40_A17.dat",
+      "sha256": "002e2176cf03eda520b160d5a46ce0f5f42125f892c9d0e1fd3c40424d249324"
+    },
+    {
+      "file": "DU35_A17.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/DU35_A17.dat",
+      "sha256": "701cff83e01a187209ff788a3fc4bfb9b8592546462a5aec2f0df54701d05763"
+    },
+    {
+      "file": "DU30_A17.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/DU30_A17.dat",
+      "sha256": "113387e58db28716aa9d2e1b023200fc32354095651c53042e3615ec6093ff82"
+    },
+    {
+      "file": "DU25_A17.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/DU25_A17.dat",
+      "sha256": "52fcce2a8fd1159f38cdd1a8bfd365f79e3060e66ea91d5ab8fbce1f16ec20a7"
+    },
+    {
+      "file": "DU21_A17.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/DU21_A17.dat",
+      "sha256": "2ad661a5f04e87285b8c7f79e9e0b67765ce0f876a9597f604935eb6c47fa2f6"
+    },
+    {
+      "file": "NACA64_A17.dat",
+      "url": "https://raw.githubusercontent.com/OpenFAST/r-test/dd5feaaaa500ba7283140107806300d551cff0a7/glue-codes/openfast/5MW_Baseline/Airfoils/NACA64_A17.dat",
+      "sha256": "acfbf90a0aa479f560911d89b31ec20d02284496a74ecfc9b8ad0534c5d472b9"
+    }
+  ],
+  "interpretation": "Public NREL 5 MW reference inputs for an explicitly scaled ALM prototype, not identification of the scene turbine."
+}

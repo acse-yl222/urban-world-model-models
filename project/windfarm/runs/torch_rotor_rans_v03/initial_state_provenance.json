@@ -1,0 +1,6 @@
+{
+  "parent_run_id": "20260930T010905Z_a5f96a98",
+  "parent_time_s": 600.0,
+  "checkpoint_sha256": "5b907d224d21639c1c14f7d8005d16d7782869b5388d65ff9d6503be757ee22e",
+  "interpretation": "New model-transition trial clock starts at zero using the parent flow state; not a same-model continuation."
+}

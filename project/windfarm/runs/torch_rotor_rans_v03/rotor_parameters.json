@@ -1,0 +1,7 @@
+{
+  "model": "quasi-steady rotating actuator lines",
+  "elements_per_blade": 16,
+  "prescribed_tsr": 7.0,
+  "sigma_m": 11.313708498984761,
+  "pitch_deg": 0.0
+}

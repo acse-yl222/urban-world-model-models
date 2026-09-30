@@ -1,0 +1,30 @@
+{
+  "run_id": "20260930T023614Z_7d1d786b",
+  "model": "TorchRotor-RANS v0.3 / rotating ALM",
+  "physical_trial_duration_s": 29.999999999999897,
+  "initial_flow_parent_time_s": 600.0,
+  "frames": 151,
+  "steps": 1050,
+  "wall_seconds": 279.55210475000786,
+  "inlet_m_s": 10.0,
+  "cell_m": 8.0,
+  "rotor_count": 23,
+  "prescribed_speed": true,
+  "rpm_range": [
+    16.271388904992126,
+    16.28514262925081
+  ],
+  "final_total_thrust_N": 6860033.578125,
+  "final_total_shaft_torque_Nm": 36006764.125,
+  "final_total_aerodynamic_mechanical_power_W": 61373437.125,
+  "electrical_power_computed": false,
+  "experimental_accuracy_validated": false,
+  "grid_independence_verified": false,
+  "steady_convergence_verified": false,
+  "conservation_maxima": {
+    "relative_force_error": 6.79187340643535e-08,
+    "relative_global_moment_error": 2.1750158766738423e-08,
+    "relative_work_error": 4.423410316866038e-08
+  },
+  "interpretation": "Thirty-second model-transition trial using scaled reference blades and prescribed speed. Mechanical power is not electrical generation or validated site performance. The prior ADM stationarity result does not apply to this trial."
+}
