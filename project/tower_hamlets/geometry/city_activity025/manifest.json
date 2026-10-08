@@ -1,0 +1,39 @@
+{
+  "name": "canary_wharf_4km.glb",
+  "version": "city_activity025",
+  "total_bytes": 391671560,
+  "sha256": "222971c42f355f43bf983614b0bf689d43dea2bc91b7d5e3285573cc82de55ec",
+  "parts": [
+    {
+      "file": "canary_wharf_4km.glb.part-000",
+      "bytes": 67108864,
+      "sha256": "b22af9b63268f60b39b8042206f5b90a98f7ed23328928e5e738e3ee260f8ae5"
+    },
+    {
+      "file": "canary_wharf_4km.glb.part-001",
+      "bytes": 67108864,
+      "sha256": "a1b0db6bf1b1faa5b805da18c814856d1ed0f69ff570e6659f10df4555bbc50a"
+    },
+    {
+      "file": "canary_wharf_4km.glb.part-002",
+      "bytes": 67108864,
+      "sha256": "1689f5020c900c3eaedebdd0a0dd55643629d075713d980187038adadffa5a86"
+    },
+    {
+      "file": "canary_wharf_4km.glb.part-003",
+      "bytes": 67108864,
+      "sha256": "df412ea269189c97e1867b24ba2cb68611ec3b5a478a04f6edce9c136520656c"
+    },
+    {
+      "file": "canary_wharf_4km.glb.part-004",
+      "bytes": 67108864,
+      "sha256": "557e837f1a5a07b8b691368f258b5f4f2909665313bd913d2054215452d6af86"
+    },
+    {
+      "file": "canary_wharf_4km.glb.part-005",
+      "bytes": 56127240,
+      "sha256": "9cca1981f9b473d5f34674e5fd90d16de226deff0273e464eb4a2e345d8fd5cb"
+    }
+  ],
+  "note": "Byte-exact original GLB; glTF Y up, metres."
+}

@@ -13,6 +13,7 @@ resources.json                         # all published resources, provenance and
 project/
   south_ken/geometry/models_v1/         # chunked South Kensington GLB
   white_city/geometry/white_city_v2/    # chunked White City GLB
+  tower_hamlets/geometry/city_activity025/ # byte-exact Canary Wharf 4 km GLB
   windfarm/geometry/published_v1/       # published terrain/turbine GLB
   windfarm/runs/published_movie_v1/     # published wind playback and comparison fields
   <scene>/resources.json               # scene resource IDs
