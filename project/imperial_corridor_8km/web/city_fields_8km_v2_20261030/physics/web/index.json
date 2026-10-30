@@ -1,0 +1,145 @@
+{
+ "generated": "2026-10-30T09:36",
+ "scene": "imperial_corridor_8km",
+ "encoding": "png; value = lo + v/255*(hi-lo); rgb3 = (u,v,w); bit = mask",
+ "layers": {
+  "wind": {
+   "source": "wind.npy",
+   "kind": "rgb3",
+   "range": [
+    -2.0,
+    2.0
+   ],
+   "frames": 301,
+   "shape_yx": [
+    512,
+    512
+   ],
+   "note": "u, v, w (m/s)",
+   "bytes": 100177028,
+   "avg_kb": 325.0,
+   "extension": "webp"
+  },
+  "temp": {
+   "source": "temp.npy",
+   "kind": "gray",
+   "range": [
+    20.0,
+    45.0
+   ],
+   "frames": 11,
+   "shape_yx": [
+    256,
+    256
+   ],
+   "note": "temperature C",
+   "bytes": 354072,
+   "avg_kb": 31.4,
+   "extension": "png"
+  },
+  "poll": {
+   "source": "poll.npy",
+   "kind": "gray",
+   "range": [
+    0.001,
+    33.81
+   ],
+   "frames": 21,
+   "shape_yx": [
+    512,
+    512
+   ],
+   "note": "log10(1 + concentration/scale); preserves zero",
+   "bytes": 2456414,
+   "avg_kb": 114.2,
+   "extension": "png",
+   "value_transform": "log1p",
+   "value_scale": 0.001
+  },
+  "flood": {
+   "source": "flood.npy",
+   "kind": "gray",
+   "range": [
+    0.0,
+    0.5
+   ],
+   "frames": 181,
+   "shape_yx": [
+    512,
+    512
+   ],
+   "note": "water depth m (values above the range saturate)",
+   "bytes": 27837881,
+   "avg_kb": 150.2,
+   "extension": "png"
+  },
+  "solar_20260621": {
+   "source": "solar_20260621.npy",
+   "kind": "gray",
+   "range": [
+    0.0,
+    950.0
+   ],
+   "frames": 99,
+   "shape_yx": [
+    512,
+    512
+   ],
+   "note": "GHI W/m2",
+   "bytes": 15632279,
+   "avg_kb": 154.2,
+   "extension": "png"
+  },
+  "shadow_20260621": {
+   "source": "shadow_20260621.npy",
+   "kind": "bit",
+   "range": [
+    0,
+    1
+   ],
+   "frames": 99,
+   "shape_yx": [
+    512,
+    512
+   ],
+   "note": "shadow mask, 1 = shaded",
+   "bytes": 1524268,
+   "avg_kb": 15.0,
+   "extension": "png"
+  },
+  "solar_20261221": {
+   "source": "solar_20261221.npy",
+   "kind": "gray",
+   "range": [
+    0.0,
+    950.0
+   ],
+   "frames": 47,
+   "shape_yx": [
+    512,
+    512
+   ],
+   "note": "GHI W/m2",
+   "bytes": 6069433,
+   "avg_kb": 126.1,
+   "extension": "png"
+  },
+  "shadow_20261221": {
+   "source": "shadow_20261221.npy",
+   "kind": "bit",
+   "range": [
+    0,
+    1
+   ],
+   "frames": 47,
+   "shape_yx": [
+    512,
+    512
+   ],
+   "note": "shadow mask, 1 = shaded",
+   "bytes": 1200339,
+   "avg_kb": 24.9,
+   "extension": "png"
+  }
+ }
+}
