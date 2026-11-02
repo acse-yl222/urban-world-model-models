@@ -16,7 +16,12 @@
         "repository": "acse-yl222/physics-grounded-4d-world-model-framework",
         "original_path": "tools/upgrade_corridor_presentation.py; retained imperial_corridor_8km physics 20261030",
         "source_revision": "7917ad6e72c7b763876a842f5e1b06625d99da3a (historical source presentation; new adapter retained separately)",
-        "traffic_run_id": "20261026T215940Z_d673c4"
+        "traffic_run_id": "20261026T215940Z_d673c4",
+        "adapter_files": {
+          "tools/upgrade_corridor_presentation.py": "c88787270e8acbbfa6b6da08af84e0c5c214c5061e32854395c52b6637501b90",
+          "tools/install_corridor_context.py": "916635665465c340eec57e314bb0caf9ee10a6ca8a76e7ed80379524f3f056e6",
+          "src/visualization/shared/corridor-context.js": "c846c899f39348a9de1f19bbf00ab945d07d821146b9ec54adf0cbf33895b930"
+        }
       },
       "license": "Source-specific: Environment Agency LiDAR (OGL), OSM / Overture-derived geographic inputs (ODbL). Derived simulation display data; no blanket new licence asserted.",
       "limits": [
