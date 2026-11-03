@@ -1,6 +1,7 @@
 {
   "scene_id": "imperial_corridor_8km",
   "resource_ids": [
-    "imperial_corridor_8km_native_display_20261102"
+    "imperial_corridor_8km_native_display_20261102",
+    "imperial_corridor_8km_vector_roads_20261103"
   ]
 }

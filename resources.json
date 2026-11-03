@@ -4160,6 +4160,83 @@
           "sha256": "8be3ba98b6fd2b8aa6aec194f9d97661e6c8065f4555765ec30abeb288c4a8b9"
         }
       ]
+    },
+    {
+      "id": "imperial_corridor_8km_vector_roads_20261103",
+      "scene_id": "imperial_corridor_8km",
+      "category": "geometry",
+      "version": "vector_roads_20261103",
+      "format": "glb_and_source_vector_network",
+      "entry": "project/imperial_corridor_8km/geometry/vector_roads_20261103/manifest.json",
+      "coordinate_frame": "ENU source; glTF x=east, y=flat presentation offset, z=-north; origin (-0.200473,51.506427).",
+      "provenance": {
+        "repository": "acse-yl222/physics-grounded-4d-world-model-framework",
+        "original_path": "src/visualization/export/vector_roads.py",
+        "source_revision": "f98077d6c2ba0dd39b6486b1a2ba23f49519ab31",
+        "source_snapshot_sha256": "6601612b7e6f4091f9805ddab6e725669258d9581a093061c6fad7fb5321d1b4",
+        "source_network_sha256": "713d16adbd2b3478134c285c3a68709dcd1a3fc370e6e2b9079ce4c291a94180"
+      },
+      "license": "Source-specific OSM-derived SUMO network (ODbL) and Environment Agency terrain-derived masks (OGL); no new blanket licence asserted.",
+      "limits": [
+        "Full source motor-road network; pedestrian-, bicycle- and rail-only lanes were excluded upstream.",
+        "Lane widths and junction outlines are vector geometry. Source precision is 0.1 m; this is not a surveyed road model.",
+        "Display is flattened to match the existing buildings and recorded vehicles. Original source elevations and estimated bridge classifications are retained in source JSON.",
+        "Optional lane boundaries show geometric widths, not surveyed painted markings.",
+        "Only display polygons are clipped to the 8192 m domain; original paths and topology are preserved."
+      ],
+      "assets": [
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/landcover.png",
+          "bytes": 177724,
+          "sha256": "f1d7c67e0af17a4d7152f0a065cad3d8b286e135a541071ca326d85f8cbb3fe3"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/manifest.json",
+          "bytes": 4366,
+          "sha256": "81b8a1d078bb60d2404cefc5ab91e9b1b53d6738984de082782278164af81fc2"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/requirements.txt",
+          "bytes": 122,
+          "sha256": "0a07cf67fc27ed9435d43d8ab11f7ca4f4433f1cbe146329d3b9a21382768c93"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/road_network.json",
+          "bytes": 2994,
+          "sha256": "3e615d0d8c29daefa34224bf79e87b8080ff78bec813573020064c605b00613c"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/road_network_0.json",
+          "bytes": 7891317,
+          "sha256": "76b5ec144442adb0de313f90f2522b8c29b846f7778b0b22422bdd07218fb261"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/road_network_1.json",
+          "bytes": 8168454,
+          "sha256": "9022b4839d8c525425fdf37f76dc145563dfc2e687c2e50856ed2182048d45f9"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/road_network_2.json",
+          "bytes": 8494185,
+          "sha256": "92756a51a8503e16674d1bea95e99cc1f9066a8e7bee801f2e4e4ff4a19dd5f9"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/roads-audit.json",
+          "bytes": 33463,
+          "sha256": "dae61d15eb97750a6a478a15220d9ec4c2f90f961afcb26df97c09a1730c32db"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/roads.glb",
+          "bytes": 22762032,
+          "sha256": "8d6604459a0ce17118611e184a48d457fc3cfb99ad15028af3ed64feb66e0304"
+        },
+        {
+          "path": "project/imperial_corridor_8km/geometry/vector_roads_20261103/source_snapshot.py",
+          "bytes": 7514,
+          "sha256": "6601612b7e6f4091f9805ddab6e725669258d9581a093061c6fad7fb5321d1b4"
+        }
+      ],
+      "total_bytes": 47542171
     }
   ]
 }
